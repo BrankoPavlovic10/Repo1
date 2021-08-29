@@ -1,0 +1,15 @@
+.main-div div {
+    display: inline-block;
+}
+
+.main-div div input, .main-div div label {
+    width: fit-content;
+    display: block;
+}
+
+.div-input  {
+    position: relative;
+    top: 8px;
+}
+
+

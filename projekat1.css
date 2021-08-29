@@ -1,0 +1,369 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Calibri, sans-serif;
+}
+
+.header {
+	border-bottom: 2px solid #01aa01;
+	background-color: #fefefe;
+	padding-bottom: 10px;
+
+}
+
+.column{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.page .column{
+	height: 100vh;
+}
+
+#logo-i-social{
+	display: flex;
+	
+}
+
+#logo-holder{
+	flex-grow: 1;
+	
+}
+
+#logo-holder img{
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+}
+
+#social-holder{
+	flex-grow: 1;
+	text-align: right;
+
+}
+
+#social-holder a {
+	text-decoration: none;
+}
+
+#social-holder a img {
+	height: 24px;
+	width: 24px;
+	margin: 5px;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	padding-bottom: 17px;
+}
+
+nav ul{
+	float: left;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+	font-family: arial;
+	color: #01dc01;
+	font-size: 22px;
+	padding: 22px 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #000033aa;
+	padding: 10px;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #01dc0155;
+	color: #0101aa;
+	transition: 500ms;
+}
+
+nav ul li ul li a{
+	padding: 8px 14px;
+}
+
+nav ul li ul li{
+	width: 180px;
+}
+
+nav ul li ul li a:hover{
+	background-color: #00003344;
+	color: white;
+}
+
+.page{
+	background: url('social/img/slika1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.page .column{
+	display: flex;
+}
+.comment{
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.content{
+	flex-grow: 4;
+	flex-basis: 0;
+}
+
+.comment h2{
+	text-align: left;
+	margin-top: 50px;
+}
+
+.comment p{
+	padding: 3px;
+	border-bottom: 1px dotted #00ff00;
+	background-color: #ffffff90;
+	font-weight: bold;
+}
+
+.petition h1{
+	text-align: center;
+	font-size: 40px;
+	text-align:center;
+	color: rgb(10,300,300);
+}
+
+#naslovna p{
+	margin-left: 40px;
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #00003344;
+}
+
+#naslovna .front{
+	border: 1px solid black;
+}
+
+
+.kontakt-forma{
+	margin-left: 40px;
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #00003344;
+}
+.kontakt-forma input[type="text"], .kontakt-forma input[type=password] {
+	border: 0;
+	display: block;
+	margin: 10px auto;
+	padding: 5px  5px;
+	border-radius: 6px;
+}
+
+.tabela{
+	margin-left: 40px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #00003344;
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+th{
+	width: 150px;
+	
+
+}
+
+.proizvod:hover .text-holder{
+	opacity: 1.0;
+}
+
+.career-columns{
+	display: flex;
+}
+
+.sveVesti{
+	color: #0101aa;
+
+}
+
+
+
+.position{
+	flex-grow:1;
+	flex-basis: 0;
+}
+
+.message{
+	flex-grow:1;
+	flex-basis:0;
+	text-align: center;
+}
+
+.pozicija{
+	display: flex;
+	background-color: #00003344;
+	margin-left: 30px;
+}
+
+.position{
+	text-align: center;
+}
+
+.pozicija label{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.pozicija textarea{
+	width: 300px;
+}
+
+.pozicija input{
+	border-radius: 8px;
+	height: 25px;
+	width:300px;
+}
+
+.petiton input{
+	border-radius: 8px;
+	height: 25px;
+	width: 300px;
+}
+
+.petition button{
+	border: 0;
+	margin: auto;
+	padding: 8px  5px;
+	border-radius: 6px;
+}
+
+.comments{
+	margin: 0px auto;
+}
+
+.comments h1{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	text-align:center;
+	color: rgb(10,300,300);
+	
+}
+
+.comments p{
+	padding: 10px;
+	border-bottom: 1px dotted #00ff00;
+	background-color: #ffffff90;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#organizatori p{
+	text-align: center;
+	background-color: #ffffff90;
+	font-weight: bold;
+	font-size:25px;
+	margin: 0px 150px;
+}
+
+#unos-vesti{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+#unos-vesti input{
+	border-radius: 8px;
+	height: 25px;
+	width:300px;
+}
+
+#unos-vesti textarea{
+	width: 300px;
+}
+
+#unos-vesti label{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+#unos-lokacije input{
+	border-radius: 8px;
+	height: 25px;
+	width:300px;
+}
+
+#unos-lokacije label{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#unos-lokacije .kontakt-forma{
+	background-color: #ffffff00;
+	padding-top: 20px;
+}
+
+
+.biranjeOrganizatora{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+
+}
+
+.logout-poruka{
+	text-align: center;
+	font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
